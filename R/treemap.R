@@ -18,21 +18,21 @@
 #' plot<- treemap(data=proglangs, area="value", fill="parent", label="id", group="parent", title="Title", caption="caption")
 #' plot
 #'
-#' @import(ggplot2)
-#' @import(scales)
-#' @import(reshape2)
-#' @import(ggthemes)
-#' @import(gganimate)
-#' @import(gapminder)
-#' @import(ggalt)
-#' @import(ggExtra)
-#' @import(ggcorrplot)
-#' @import(dplyr)
-#' @import(treemapify)
-#' @import(ggfortify)
-#' @import(zoo)
-#' @import(plyr)
-#' @import(ggdendro)
+#' @import ggplot2
+#' @import scales
+#' @import reshape2
+#' @import ggthemes
+#' @import gganimate
+#' @import gapminder
+#' @import ggalt
+#' @import ggExtra
+#' @import ggcorrplot
+#' @import dplyr
+#' @import treemapify
+#' @import ggfortify
+#' @import zoo
+#' @import plyr
+#' @import ggdendro
 #' @export
 treemap<-function(data,area,fill,label,group,
                   title=NULL,caption=NULL){

@@ -19,21 +19,21 @@
 #' plot<- area(data=economics[1:100,],date = "date",value = "returns_perc")
 #' plot
 #'
-#' @import(ggplot2)
-#' @import(scales)
-#' @import(reshape2)
-#' @import(ggthemes)
-#' @import(gganimate)
-#' @import(gapminder)
-#' @import(ggalt)
-#' @import(ggExtra)
-#' @import(ggcorrplot)
-#' @import(dplyr)
-#' @import(treemapify)
-#' @import(ggfortify)
-#' @import(zoo)
-#' @import(plyr)
-#' @import(ggdendro)
+#' @import ggplot2
+#' @import scales
+#' @import reshape2
+#' @import ggthemes
+#' @import gganimate
+#' @import gapminder
+#' @import ggalt
+#' @import ggExtra
+#' @import ggcorrplot
+#' @import dplyr
+#' @import treemapify
+#' @import ggfortify
+#' @import zoo
+#' @import plyr
+#' @import ggdendro
 #' @export
 area<-function(data,date,value,
                title=NULL,subtitle=NULL,xtitle=NULL,ytitle=NULL,caption=NULL){

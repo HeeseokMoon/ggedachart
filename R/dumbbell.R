@@ -23,21 +23,21 @@
 #' plot<- dumbbell(data=gapminder,group="continent",dif.var="year",value.var="meangdppercap",start=1997,end=2002)
 #' plot
 #'
-#' @import(ggplot2)
-#' @import(scales)
-#' @import(reshape2)
-#' @import(ggthemes)
-#' @import(gganimate)
-#' @import(gapminder)
-#' @import(ggalt)
-#' @import(ggExtra)
-#' @import(ggcorrplot)
-#' @import(dplyr)
-#' @import(treemapify)
-#' @import(ggfortify)
-#' @import(zoo)
-#' @import(plyr)
-#' @import(ggdendro)
+#' @import ggplot2
+#' @import scales
+#' @import reshape2
+#' @import ggthemes
+#' @import gganimate
+#' @import gapminder
+#' @import ggalt
+#' @import ggExtra
+#' @import ggcorrplot
+#' @import dplyr
+#' @import treemapify
+#' @import ggfortify
+#' @import zoo
+#' @import plyr
+#' @import ggdendro
 #' @export
 dumbbell<-function(data,group,dif.var,value.var,start="min",end="max",
                    title=NULL,subtitle=NULL,xtitle=NULL,ytitle=NULL,caption=NULL){

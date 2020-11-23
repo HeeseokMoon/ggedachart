@@ -21,21 +21,21 @@
 #'                  col.var="continent",size.var = "pop", frame.var = "year")
 #' plot
 #'
-#' @import(ggplot2)
-#' @import(scales)
-#' @import(reshape2)
-#' @import(ggthemes)
-#' @import(gganimate)
-#' @import(gapminder)
-#' @import(ggalt)
-#' @import(ggExtra)
-#' @import(ggcorrplot)
-#' @import(dplyr)
-#' @import(treemapify)
-#' @import(ggfortify)
-#' @import(zoo)
-#' @import(plyr)
-#' @import(ggdendro)
+#' @import ggplot2
+#' @import scales
+#' @import reshape2
+#' @import ggthemes
+#' @import gganimate
+#' @import gapminder
+#' @import ggalt
+#' @import ggExtra
+#' @import ggcorrplot
+#' @import dplyr
+#' @import treemapify
+#' @import ggfortify
+#' @import zoo
+#' @import plyr
+#' @import ggdendro
 #' @export
 anibubble<-function(data,x,y,col.var,size.var,frame.var,
                      fps=5,width= 1900, height=1068.75,

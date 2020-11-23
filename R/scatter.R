@@ -21,21 +21,21 @@
 #'
 #' plot
 #'
-#' @import(ggplot2)
-#' @import(scales)
-#' @import(reshape2)
-#' @import(ggthemes)
-#' @import(gganimate)
-#' @import(gapminder)
-#' @import(ggalt)
-#' @import(ggExtra)
-#' @import(ggcorrplot)
-#' @import(dplyr)
-#' @import(treemapify)
-#' @import(ggfortify)
-#' @import(zoo)
-#' @import(plyr)
-#' @import(ggdendro)
+#' @import ggplot2
+#' @import scales
+#' @import reshape2
+#' @import ggthemes
+#' @import gganimate
+#' @import gapminder
+#' @import ggalt
+#' @import ggExtra
+#' @import ggcorrplot
+#' @import dplyr
+#' @import treemapify
+#' @import ggfortify
+#' @import zoo
+#' @import plyr
+#' @import ggdendro
 #' @export
 scatter<-function(data,x,y,col.var=NULL,size.var=NULL,
                   method="loess",
