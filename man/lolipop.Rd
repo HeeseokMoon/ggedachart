@@ -33,7 +33,7 @@ lolipop(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 lolipop function will draw Lollipop Chart for Ranking analysis.
@@ -46,4 +46,5 @@ colnames(cty_mpg) <- c("make", "mileage")                           # change col
 #orderbar
 plot<- lolipop(data=cty_mpg,x="make",y="mileage")
 plot
+
 }

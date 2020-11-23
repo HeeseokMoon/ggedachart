@@ -11,7 +11,7 @@
 #' @param xtitle x axis title
 #' @param ytitle y axis title
 #' @param caption caption
-#' @return plot with ggplot2 grammar
+#' @return An object of class \code{ggplot}
 #' @examples
 #' #prepare data
 #' mpg_select <- mpg[mpg$manufacturer %in% c("audi", "ford", "honda", "hyundai"), ]
@@ -19,6 +19,23 @@
 #' #Bubble plot
 #' plot<- bubble(data=mpg_select, x="displ", y="cty", col.var="manufacturer", size.var="hwy")
 #' plot
+#'
+#' @import(ggplot2)
+#' @import(scales)
+#' @import(reshape2)
+#' @import(ggthemes)
+#' @import(gganimate)
+#' @import(gapminder)
+#' @import(ggalt)
+#' @import(ggExtra)
+#' @import(ggcorrplot)
+#' @import(dplyr)
+#' @import(treemapify)
+#' @import(ggfortify)
+#' @import(zoo)
+#' @import(plyr)
+#' @import(ggdendro)
+#' @export
 bubble<-function(data,x,y,col.var,size.var,
                  title=NULL,subtitle=NULL,xtitle=NULL,ytitle=NULL,caption=NULL){
   df<- data

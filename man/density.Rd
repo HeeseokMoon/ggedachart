@@ -33,7 +33,7 @@ density(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 density function will draw Density Plot for Distribution analysis.
@@ -41,4 +41,5 @@ density function will draw Density Plot for Distribution analysis.
 \examples{
 plot<- density(data=mpg,x="cty",col.var="cyl")
 plot
+
 }

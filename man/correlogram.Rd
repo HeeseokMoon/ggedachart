@@ -16,7 +16,7 @@ correlogram(data, title = NULL, subtitle = NULL, caption = NULL)
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 correlogram function will draw Correlogram for correlation analysis.
@@ -24,4 +24,5 @@ correlogram function will draw Correlogram for correlation analysis.
 \examples{
 plot<- correlogram(data=mtcars)
 plot
+
 }

@@ -33,7 +33,7 @@ counts(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 counts function will draw counts chart for correlation analysis.
@@ -41,4 +41,5 @@ counts function will draw counts chart for correlation analysis.
 \examples{
 plot<- counts(data=mpg, x="cty", y="hwy")
 plot
+
 }

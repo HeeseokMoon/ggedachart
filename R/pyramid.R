@@ -10,7 +10,7 @@
 #' @param xtitle value variable
 #' @param ytitle input data.frame
 #' @param caption date variable
-#' @return plot with ggplot2 grammar
+#' @return An object of class \code{ggplot}
 #' @examples
 #' # Read data
 #' email_campaign_funnel <- read.csv("https://raw.githubusercontent.com/selva86/datasets/master/email_campaign_funnel.csv")
@@ -19,6 +19,23 @@
 #' plot<- pyramid(data=email_campaign_funnel,x="Stage",y="Users",col.var="Gender",
 #'                title = "Title")
 #' plot
+#'
+#' @import(ggplot2)
+#' @import(scales)
+#' @import(reshape2)
+#' @import(ggthemes)
+#' @import(gganimate)
+#' @import(gapminder)
+#' @import(ggalt)
+#' @import(ggExtra)
+#' @import(ggcorrplot)
+#' @import(dplyr)
+#' @import(treemapify)
+#' @import(ggfortify)
+#' @import(zoo)
+#' @import(plyr)
+#' @import(ggdendro)
+#' @export
 pyramid<-function(data,x,y,col.var,
                   title=NULL,subtitle=NULL,xtitle=NULL,ytitle=NULL,caption=NULL){
   df<- data

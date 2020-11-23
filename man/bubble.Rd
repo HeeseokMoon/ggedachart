@@ -39,7 +39,7 @@ bubble(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 bubble function will draw bubble plot for correlation analysis.
@@ -51,4 +51,5 @@ mpg_select <- mpg[mpg$manufacturer \%in\% c("audi", "ford", "honda", "hyundai"),
 #Bubble plot
 plot<- bubble(data=mpg_select, x="displ", y="cty", col.var="manufacturer", size.var="hwy")
 plot
+
 }

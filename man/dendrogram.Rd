@@ -26,7 +26,7 @@ dendrogram(
 \item{value}{value variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 dendrogram function will draw Dendrogram for Groups analysis.
@@ -36,4 +36,5 @@ hc <- hclust(dist(USArrests), "ave")  # hierarchical clustering
 
 dendrogram(data=USArrests)
 dendrogram(hc)
+
 }

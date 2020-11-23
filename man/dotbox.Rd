@@ -33,7 +33,7 @@ dotbox(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 dotbox function will draw Dot + Box Plot for Distribution analysis.
@@ -41,4 +41,5 @@ dotbox function will draw Dot + Box Plot for Distribution analysis.
 \examples{
 plot<- dotbox(data=mpg,x="manufacturer",y="cty")
 plot
+
 }

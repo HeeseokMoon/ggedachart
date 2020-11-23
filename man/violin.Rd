@@ -33,7 +33,7 @@ violin(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 violin function will draw Violin Plot for Distribution analysis.
@@ -41,4 +41,5 @@ violin function will draw Violin Plot for Distribution analysis.
 \examples{
 plot<- violin(data=mpg,x="class",y="cty")
 plot
+
 }

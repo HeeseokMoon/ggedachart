@@ -39,7 +39,7 @@ histogram(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 histogram function will draw Histogram for Distribution analysis.
@@ -47,4 +47,5 @@ histogram function will draw Histogram for Distribution analysis.
 \examples{
 plot<- histogram(data=mpg,x="displ",col.var="class")
 plot
+
 }

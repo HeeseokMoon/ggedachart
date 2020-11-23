@@ -12,7 +12,7 @@
 #' @param xtitle value variable
 #' @param ytitle input data.frame
 #' @param caption date variable
-#' @return plot with ggplot2 grammar
+#' @return An object of class \code{ggplot}
 #' @examples
 #' # prep data
 #' gapminder <- gapminder %>% group_by(continent,year) %>%
@@ -22,6 +22,23 @@
 #' #slope chart
 #' plot<- slope(data=gapminder,group="continent",dif.var="year",value.var="meangdppercap",start=1997,end=2002)
 #' plot
+#'
+#' @import(ggplot2)
+#' @import(scales)
+#' @import(reshape2)
+#' @import(ggthemes)
+#' @import(gganimate)
+#' @import(gapminder)
+#' @import(ggalt)
+#' @import(ggExtra)
+#' @import(ggcorrplot)
+#' @import(dplyr)
+#' @import(treemapify)
+#' @import(ggfortify)
+#' @import(zoo)
+#' @import(plyr)
+#' @import(ggdendro)
+#' @export
 slope<-function(data,group,dif.var,value.var,start="min",end="max",
                 title=NULL,subtitle=NULL,xtitle=NULL,ytitle=NULL,caption=NULL){
   df<-data

@@ -42,7 +42,7 @@ slope(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 slope function will draw Slope Chart for Ranking analysis.
@@ -56,4 +56,5 @@ gapminder[59,"meangdppercap"]<-20088.78
 #slope chart
 plot<- slope(data=gapminder,group="continent",dif.var="year",value.var="meangdppercap",start=1997,end=2002)
 plot
+
 }

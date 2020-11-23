@@ -36,7 +36,7 @@ pyramid(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 pyramid function will draw Population Pyramid for Distribution analysis.
@@ -49,4 +49,5 @@ email_campaign_funnel <- read.csv("https://raw.githubusercontent.com/selva86/dat
 plot<- pyramid(data=email_campaign_funnel,x="Stage",y="Users",col.var="Gender",
                title = "Title")
 plot
+
 }

@@ -33,7 +33,7 @@ area(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 area function will draw area chart for deviation analysis.
@@ -46,4 +46,5 @@ economics<- as.data.frame(economics)
 #area chart
 plot<- area(data=economics[1:100,],date = "date",value = "returns_perc")
 plot
+
 }

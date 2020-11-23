@@ -42,7 +42,7 @@ dumbbell(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 dumbbell function will draw Dumbbell Plot for Ranking analysis.
@@ -56,4 +56,5 @@ gapminder[59,"meangdppercap"]<-20088.78
 #dumbbell plot
 plot<- dumbbell(data=gapminder,group="continent",dif.var="year",value.var="meangdppercap",start=1997,end=2002)
 plot
+
 }

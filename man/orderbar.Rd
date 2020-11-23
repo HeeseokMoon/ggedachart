@@ -33,7 +33,7 @@ orderbar(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 orderbar function will draw Ordered Bar Chart for Ranking analysis.
@@ -46,4 +46,5 @@ colnames(cty_mpg) <- c("make", "mileage")                           # change col
 #orderbar
 plot<- orderbar(data=cty_mpg,x="make",y="mileage")
 plot
+
 }

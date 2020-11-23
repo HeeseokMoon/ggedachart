@@ -34,7 +34,7 @@ boxplot(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 boxplot function will draw Box Plot for Distribution analysis.
@@ -42,4 +42,5 @@ boxplot function will draw Box Plot for Distribution analysis.
 \examples{
 plot<- boxplot(data=mpg,x="class",col.var="cty")
 plot
+
 }

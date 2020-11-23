@@ -5,10 +5,27 @@
 #' @param title input data.frame
 #' @param subtitle date variable
 #' @param caption date variable
-#' @return plot with ggplot2 grammar
+#' @return An object of class \code{ggplot}
 #' @examples
 #' plot<- waffle(data=mpg$class,title = "Title",caption="caption")
 #' plot
+#'
+#' @import(ggplot2)
+#' @import(scales)
+#' @import(reshape2)
+#' @import(ggthemes)
+#' @import(gganimate)
+#' @import(gapminder)
+#' @import(ggalt)
+#' @import(ggExtra)
+#' @import(ggcorrplot)
+#' @import(dplyr)
+#' @import(treemapify)
+#' @import(ggfortify)
+#' @import(zoo)
+#' @import(plyr)
+#' @import(ggdendro)
+#' @export
 waffle<-function(data,
                  title=NULL,subtitle=NULL,caption=NULL){
   var<-data

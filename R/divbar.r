@@ -9,10 +9,27 @@
 #' @param xtitle x axis title
 #' @param ytitle y axis title
 #' @param caption caption
-#' @return plot with ggplot2 grammar
+#' @return An object of class \code{ggplot}
 #' @examples
 #' plot<- divbar(data=mtcars,div.var="mpg",method="mean")
 #' plot
+#'
+#' @import(ggplot2)
+#' @import(scales)
+#' @import(reshape2)
+#' @import(ggthemes)
+#' @import(gganimate)
+#' @import(gapminder)
+#' @import(ggalt)
+#' @import(ggExtra)
+#' @import(ggcorrplot)
+#' @import(dplyr)
+#' @import(treemapify)
+#' @import(ggfortify)
+#' @import(zoo)
+#' @import(plyr)
+#' @import(ggdendro)
+#' @export
 divbar<-function(data,div.var, method="mean",
                   title=NULL,subtitle=NULL,xtitle=NULL,ytitle=NULL,caption=NULL){
   df<- data

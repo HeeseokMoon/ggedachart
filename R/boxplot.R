@@ -9,10 +9,27 @@
 #' @param xtitle value variable
 #' @param ytitle input data.frame
 #' @param caption date variable
-#' @return plot with ggplot2 grammar
+#' @return An object of class \code{ggplot}
 #' @examples
 #' plot<- boxplot(data=mpg,x="class",col.var="cty")
 #' plot
+#'
+#' @import(ggplot2)
+#' @import(scales)
+#' @import(reshape2)
+#' @import(ggthemes)
+#' @import(gganimate)
+#' @import(gapminder)
+#' @import(ggalt)
+#' @import(ggExtra)
+#' @import(ggcorrplot)
+#' @import(dplyr)
+#' @import(treemapify)
+#' @import(ggfortify)
+#' @import(zoo)
+#' @import(plyr)
+#' @import(ggdendro)
+#' @export
 boxplot<-function(data,x,y,col.var=NULL,
                   title=NULL,subtitle=NULL,xtitle=NULL,ytitle=NULL,caption=NULL){
   df<- data

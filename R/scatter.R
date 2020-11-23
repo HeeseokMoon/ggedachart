@@ -12,7 +12,7 @@
 #' @param xtitle x axis title
 #' @param ytitle y axis title
 #' @param caption caption
-#' @return plot with ggplot2 grammar
+#' @return An object of class \code{ggplot}
 #' @examples
 #' #area chart
 #' plot<- scatter(data=iris, x="Sepal.Length", y="Sepal.Width", col.var = "Species", size.var = "Petal.Length",
@@ -20,6 +20,23 @@
 #'                title="Scatter", subtitle="plot", xtitle="Sepal.Length", ytitle="Sepal.Width", caption="iris")
 #'
 #' plot
+#'
+#' @import(ggplot2)
+#' @import(scales)
+#' @import(reshape2)
+#' @import(ggthemes)
+#' @import(gganimate)
+#' @import(gapminder)
+#' @import(ggalt)
+#' @import(ggExtra)
+#' @import(ggcorrplot)
+#' @import(dplyr)
+#' @import(treemapify)
+#' @import(ggfortify)
+#' @import(zoo)
+#' @import(plyr)
+#' @import(ggdendro)
+#' @export
 scatter<-function(data,x,y,col.var=NULL,size.var=NULL,
                   method="loess",
                   title=NULL,subtitle=NULL,xtitle=NULL,ytitle=NULL,caption=NULL){

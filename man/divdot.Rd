@@ -33,7 +33,7 @@ divdot(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 divdot function will draw Diverging Dot Plot for Deviation analysis.
@@ -41,4 +41,5 @@ divdot function will draw Diverging Dot Plot for Deviation analysis.
 \examples{
 plot<- divdot(data=mtcars,div.var="mpg",method="mean")
 plot
+
 }

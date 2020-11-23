@@ -42,7 +42,7 @@ scatter(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 scatter function will draw scatter plot for correlation analysis.
@@ -54,4 +54,5 @@ plot<- scatter(data=iris, x="Sepal.Length", y="Sepal.Width", col.var = "Species"
                title="Scatter", subtitle="plot", xtitle="Sepal.Length", ytitle="Sepal.Width", caption="iris")
 
 plot
+
 }

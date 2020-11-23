@@ -33,7 +33,7 @@ divbar(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 divbar function will draw Diverging Bars plot for Deviation analysis.
@@ -41,4 +41,5 @@ divbar function will draw Diverging Bars plot for Deviation analysis.
 \examples{
 plot<- divbar(data=mtcars,div.var="mpg",method="mean")
 plot
+
 }

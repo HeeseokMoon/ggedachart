@@ -22,7 +22,7 @@ cluster(data, x, y, class, title = NULL, subtitle = NULL, caption = NULL)
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 cluster function will draw Clusters for Groups analysis.
@@ -39,4 +39,5 @@ plot<- cluster(data=df_pc,x="PC1",y="PC2",class="Species",
                subtitle="With principal components PC1 and PC2 as X and Y axis",
                caption="Source: Iris")
 plot
+
 }

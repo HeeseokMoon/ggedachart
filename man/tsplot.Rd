@@ -33,7 +33,7 @@ tsplot(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 tsplot function will draw Time Series Plots for Trend analysis.
@@ -46,4 +46,5 @@ plot
 #data.frame data
 plot<- tsplot(data=as.data.frame(economics),time="date",value="uempmed")
 plot
+
 }

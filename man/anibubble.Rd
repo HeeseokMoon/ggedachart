@@ -51,7 +51,7 @@ anibubble(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 anibubble function will draw  Animated Bubble plot for correlation analysis.
@@ -60,4 +60,5 @@ anibubble function will draw  Animated Bubble plot for correlation analysis.
 plot<- anibubble(data=gapminder,x="gdpPercap",y="lifeExp",
                  col.var="continent",size.var = "pop", frame.var = "year")
 plot
+
 }

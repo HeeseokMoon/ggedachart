@@ -20,7 +20,7 @@ calendar(data, time, value, title = NULL, subtitle = NULL, caption = NULL)
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 calendar function will draw Calendar Heat Map for Trend analysis.
@@ -34,4 +34,5 @@ df <- df[df$year >= 2012, ]  # filter years
 #calendar
 plot<- calendar(data=df,time="date",value="VIX.Close")
 plot
+
 }

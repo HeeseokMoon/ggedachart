@@ -36,7 +36,7 @@ jitter(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 jitter function will draw jitter plot for correlation analysis.
@@ -44,4 +44,5 @@ jitter function will draw jitter plot for correlation analysis.
 \examples{
 plot<- jitter(data=mpg, x="cty", y="hwy", method="loess")
 plot
+
 }

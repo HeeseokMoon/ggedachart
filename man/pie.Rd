@@ -14,7 +14,7 @@ pie(data, title = NULL, caption = NULL)
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 pie function will draw Pie Chart for Composition analysis.
@@ -22,4 +22,5 @@ pie function will draw Pie Chart for Composition analysis.
 \examples{
 plot<- pie(data=mpg$class,title = "Title",caption="caption")
 plot
+
 }

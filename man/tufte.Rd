@@ -33,7 +33,7 @@ tufte(
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 tufte function will draw Tufte Box Plot for Distribution analysis.
@@ -41,4 +41,5 @@ tufte function will draw Tufte Box Plot for Distribution analysis.
 \examples{
 plot<- tufte(data=mpg,x="manufacturer",y="cty")
 plot
+
 }

@@ -24,7 +24,7 @@ treemap(data, area, fill, label, group, title = NULL, caption = NULL)
 \item{subtitle}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 treemap function will draw Treemap Chart for Composition analysis.
@@ -36,4 +36,5 @@ proglangs <- read.csv("https://raw.githubusercontent.com/selva86/datasets/master
 #Treemap
 plot<- treemap(data=proglangs, area="value", fill="parent", label="id", group="parent", title="Title", caption="caption")
 plot
+
 }

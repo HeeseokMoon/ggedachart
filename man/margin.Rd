@@ -36,7 +36,7 @@ margin(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 margin function will draw  Marginal Histogram/Box plot for correlation analysis.
@@ -44,4 +44,5 @@ margin function will draw  Marginal Histogram/Box plot for correlation analysis.
 \examples{
 plot<- margin(data=mpg,x="cty",y="hwy",type="hist")
 plot
+
 }

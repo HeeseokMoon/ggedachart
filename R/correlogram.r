@@ -5,10 +5,27 @@
 #' @param title main title
 #' @param subtitle subtitle
 #' @param caption caption
-#' @return plot with ggplot2 grammar
+#' @return An object of class \code{ggplot}
 #' @examples
 #' plot<- correlogram(data=mtcars)
 #' plot
+#'
+#' @import(ggplot2)
+#' @import(scales)
+#' @import(reshape2)
+#' @import(ggthemes)
+#' @import(gganimate)
+#' @import(gapminder)
+#' @import(ggalt)
+#' @import(ggExtra)
+#' @import(ggcorrplot)
+#' @import(dplyr)
+#' @import(treemapify)
+#' @import(ggfortify)
+#' @import(zoo)
+#' @import(plyr)
+#' @import(ggdendro)
+#' @export
 correlogram<-function(data,
                       title=NULL,subtitle=NULL,caption=NULL){
   df<-data[, sapply(data, class) == "numeric"]

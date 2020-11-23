@@ -8,7 +8,7 @@
 #' @param title main title
 #' @param subtitle subtitle
 #' @param caption caption
-#' @return plot with ggplot2 grammar
+#' @return An object of class \code{ggplot}
 #' @examples
 #' # Compute data with principal components
 #' df <- iris[c(1, 2, 3, 4)]
@@ -21,6 +21,23 @@
 #'                subtitle="With principal components PC1 and PC2 as X and Y axis",
 #'                caption="Source: Iris")
 #' plot
+#'
+#' @import(ggplot2)
+#' @import(scales)
+#' @import(reshape2)
+#' @import(ggthemes)
+#' @import(gganimate)
+#' @import(gapminder)
+#' @import(ggalt)
+#' @import(ggExtra)
+#' @import(ggcorrplot)
+#' @import(dplyr)
+#' @import(treemapify)
+#' @import(ggfortify)
+#' @import(zoo)
+#' @import(plyr)
+#' @import(ggdendro)
+#' @export
 cluster<-function(data,x,y,class,
                   title=NULL,subtitle=NULL,caption=NULL){
   df<-data

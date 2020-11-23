@@ -7,12 +7,29 @@
 #' @param title main title
 #' @param subtitle subtitle
 #' @param caption caption
-#' @return plot with ggplot2 grammar
+#' @return An object of class \code{ggplot}
 #' @examples
 #' hc <- hclust(dist(USArrests), "ave")  # hierarchical clustering
 #'
 #' dendrogram(data=USArrests)
 #' dendrogram(hc)
+#'
+#' @import(ggplot2)
+#' @import(scales)
+#' @import(reshape2)
+#' @import(ggthemes)
+#' @import(gganimate)
+#' @import(gapminder)
+#' @import(ggalt)
+#' @import(ggExtra)
+#' @import(ggcorrplot)
+#' @import(dplyr)
+#' @import(treemapify)
+#' @import(ggfortify)
+#' @import(zoo)
+#' @import(plyr)
+#' @import(ggdendro)
+#' @export
 dendrogram<-function(data,
                      method ="complete",
                      title=NULL,subtitle=NULL,caption=NULL){

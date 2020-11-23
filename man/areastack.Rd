@@ -36,7 +36,7 @@ areastack(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 areastack function will draw Stacked Area Chart for Trend analysis.
@@ -44,4 +44,5 @@ areastack function will draw Stacked Area Chart for Trend analysis.
 \examples{
 plot<- areastack(data=as.data.frame(economics),time="date",value1="psavert",value2="uempmed")
 plot
+
 }

@@ -42,7 +42,7 @@ enscatter(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 enscatter function will draw scatter plot with encircling for correlation analysis.
@@ -56,4 +56,5 @@ iris_subset<-list(iris_select1,iris_select2,iris_select3)
 #scatter plot with encircling
 plot<- enscatter(data=iris, x="Sepal.Length", y="Petal.Length", col.var = "Species", subset = iris_subset)
 plot
+
 }

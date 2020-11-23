@@ -16,7 +16,7 @@ waffle(data, title = NULL, subtitle = NULL, caption = NULL)
 \item{caption}{date variable}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 waffle function will draw Waffle Chart for Composition analysis.
@@ -24,4 +24,5 @@ waffle function will draw Waffle Chart for Composition analysis.
 \examples{
 plot<- waffle(data=mpg$class,title = "Title",caption="caption")
 plot
+
 }

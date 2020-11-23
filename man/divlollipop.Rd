@@ -33,7 +33,7 @@ divlollipop(
 \item{caption}{caption}
 }
 \value{
-plot with ggplot2 grammar
+An object of class \code{ggplot}
 }
 \description{
 divlollipop function will draw Diverging Lollipop Chart for Deviation analysis.
@@ -41,4 +41,5 @@ divlollipop function will draw Diverging Lollipop Chart for Deviation analysis.
 \examples{
 plot<- divlollipop(data=mtcars,div.var="mpg",method="mean")
 plot
+
 }
