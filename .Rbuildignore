@@ -4,3 +4,5 @@
 .gitignore
 README.md
 .Rhistory
+^LICENSE\.md$
+^README\.Rmd$

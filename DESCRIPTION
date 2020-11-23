@@ -2,6 +2,9 @@ Package: ggedachart
 Type: Package
 Title: Get You to Your Desired Exploratory Data Analysis Plot Faster
 Version: 0.1.0
+Date: 2020-11-24
+Author: "Heeseok Moon" 
+Maintainer: "Heeseok Moon"
 Author@R: person("Heeseok","Moon", email= "bladder0808@gmail.com",
                  role = c("aut", "cre"))
 Description: Streamlines the creation of EDA charts by taking care of a lot of
@@ -24,9 +27,11 @@ Imports:
     ggfortify,
     zoo,
     plyr,
-    ggdendro
-License: Author
+    ggdendro,
+    lubridate
+License: MIT + file LICENSE
 URL: https://github.com/HeeseokMoon/ggedachart
 BugReports: https://github.com/HeeseokMoon/ggedachart/issues
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1

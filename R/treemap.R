@@ -1,12 +1,30 @@
-library(treemapify)
+#' Composition Treemap Chart.
+#'
+#' treemap function will draw Treemap Chart for Composition analysis.
+#' @param data input data.frame
+#' @param area area variable
+#' @param fill fill variable
+#' @param label label variable
+#' @param group group variable
+#' @param title input data.frame
+#' @param subtitle date variable
+#' @param caption date variable
+#' @return plot with ggplot2 grammar
+#' @examples
+#' #prep data
+#' proglangs <- read.csv("https://raw.githubusercontent.com/selva86/datasets/master/proglanguages.csv")
+#'
+#' #Treemap
+#' plot<- treemap(data=proglangs, area="value", fill="parent", label="id", group="parent", title="Title", caption="caption")
+#' plot
 treemap<-function(data,area,fill,label,group,
-                  title=NULL,caption=NULL,...){
+                  title=NULL,caption=NULL){
   df<-data
   area<-area
   fill<-fill
   label<-label
   group<-group
-  
+
   p<- ggplot(df, aes_string(area = area, fill = fill, label=label, subgroup=group)) +
     geom_treemap() +
     geom_treemap_subgroup_border() +
@@ -16,14 +34,14 @@ treemap<-function(data,area,fill,label,group,
     scale_x_continuous(expand = c(0, 0)) +
     scale_y_continuous(expand = c(0, 0)) +
     scale_fill_tableau() +
-    theme_fivethirtyeight() + 
+    theme_fivethirtyeight() +
     theme(axis.title = element_text(),
           legend.title = element_text(face = 4,size = 10),
-          axis.line = element_blank(), 
+          axis.line = element_blank(),
           plot.title = element_text(hjust=0.5),
           legend.direction = "vertical", legend.box = "horizontal",legend.position = "right") +
     labs(title=title,
          caption=caption)
-    
+
   return(p)
 }
