@@ -1,0 +1,32 @@
+Package: ggedachart
+Type: Package
+Title: Get You to Your Desired Exploratory Data Analysis Plot Faster
+Version: 0.1.0
+Author@R: person("Heeseok","Moon", email= "bladder0808@gmail.com",
+                 role = c("aut", "cre"))
+Description: Streamlines the creation of EDA charts by taking care of a lot of
+    data preprocessing and plot customization for the user. Provides a
+    high-level interface for creating plots using 'ggplot2'.
+Depends:
+    R (>= 4.0.2)
+Imports:
+    ggplot2,
+    scales,
+    reshape2,
+    ggthemes,
+    gganimate,
+    gapminder,
+    ggalt,
+    ggExtra,
+    ggcorrplot,
+    dplyr,
+    treemapify,
+    ggfortify,
+    zoo,
+    plyr,
+    ggdendro
+License: Author
+URL: https://github.com/HeeseokMoon/ggedachart
+BugReports: https://github.com/HeeseokMoon/ggedachart/issues
+Encoding: UTF-8
+LazyData: true

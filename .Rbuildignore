@@ -1,0 +1,6 @@
+^.*\.Rproj$      #Automatically added by RStudio,
+^\.Rproj\.user$  #uesd for temporary files.
+# Github stuffs
+.gitignore
+README.md
+.Rhistory
