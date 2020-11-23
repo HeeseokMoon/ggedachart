@@ -32,7 +32,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 orderbar<-function(data,x,y,

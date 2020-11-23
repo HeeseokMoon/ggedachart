@@ -27,7 +27,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 boxplot<-function(data,x,y,col.var=NULL,

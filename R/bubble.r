@@ -33,7 +33,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 bubble<-function(data,x,y,col.var,size.var,

@@ -33,7 +33,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 pyramid<-function(data,x,y,col.var,

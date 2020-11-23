@@ -32,7 +32,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 lolipop<-function(data,x,y,

@@ -36,7 +36,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 dumbbell<-function(data,group,dif.var,value.var,start="min",end="max",

@@ -31,7 +31,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 treemap<-function(data,area,fill,label,group,

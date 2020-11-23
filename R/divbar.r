@@ -27,7 +27,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 divbar<-function(data,div.var, method="mean",

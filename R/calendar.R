@@ -31,7 +31,7 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
+#' @importFrom plyr ddply
 #' @import ggdendro
 #' @export
 calendar<-function(data,time,value,
@@ -49,7 +49,7 @@ calendar<-function(data,time,value,
   # Create Month Week
   df$yearmonth <- as.yearmon(df[,x])
   df$yearmonthf <- factor(df$yearmonth)
-  df <- ddply(df,.(yearmonthf), transform, monthweek=1+week-min(week))
+  df <- plyr::ddply(df,.(yearmonthf), transform, monthweek=1+week-min(week))
   df <- df[, c("year", "yearmonthf", "monthf", "week", "monthweek", "weekdayf",value)]
 
 

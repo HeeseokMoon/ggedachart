@@ -36,7 +36,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 enscatter<-function(data,x,y,col.var=NULL,size.var=NULL,subset,

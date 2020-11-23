@@ -35,7 +35,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 cluster<-function(data,x,y,class,

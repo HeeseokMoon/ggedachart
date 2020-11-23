@@ -28,7 +28,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 areastack<-function(data,time,value1,value2,

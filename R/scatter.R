@@ -34,7 +34,6 @@
 #' @import treemapify
 #' @import ggfortify
 #' @import zoo
-#' @import plyr
 #' @import ggdendro
 #' @export
 scatter<-function(data,x,y,col.var=NULL,size.var=NULL,
