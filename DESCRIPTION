@@ -3,8 +3,7 @@ Type: Package
 Title: Get You to Your Desired Exploratory Data Analysis Plot Faster
 Version: 0.1.0
 Date: 2020-11-24
-Author: "Heeseok Moon" 
-Maintainer: "Heeseok Moon"
+Author: "Heeseok Moon"
 Author@R: person("Heeseok","Moon", email= "bladder0808@gmail.com",
                  role = c("aut", "cre"))
 Description: Streamlines the creation of EDA charts by taking care of a lot of
