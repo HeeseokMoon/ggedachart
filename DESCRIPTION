@@ -11,8 +11,9 @@ Description: Streamlines the creation of EDA charts by taking care of a lot of
     high-level interface for creating plots using 'ggplot2'.
 Depends:
     R (>= 4.0.2)
+    ggplot2 (>= 4.0.2)
+    dplyr (>= 4.0.2)
 Imports:
-    ggplot2,
     scales,
     reshape2,
     ggthemes,
@@ -21,7 +22,6 @@ Imports:
     ggalt,
     ggExtra,
     ggcorrplot,
-    dplyr,
     treemapify,
     ggfortify,
     zoo,
